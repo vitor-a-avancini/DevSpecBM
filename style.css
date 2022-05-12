@@ -1,0 +1,47 @@
+body {background-color:black;font-family:arial;color:white}
+h1								
+	{
+		color:grey;
+		font-family: verdana;
+	}
+.maindiv 						
+{
+	background-color: white;
+	color: black;
+	width: 400px; /* had to enlarge the box, 300px was giving a weird experience  */
+	padding: 20px;
+	border-radius: 25px;
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+}
+#box
+{
+	position: relative;
+	text-align: center;
+	justify-content: center;
+		
+}
+#result 						
+{
+	position: relative;
+	left:0px;
+	top: 0px;
+	text-align: left;
+	justify-content: left;
+	margin: auto;
+	border-radius: 25px;
+}
+table    						
+{
+ 
+ text-align: left;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+footer 							
+{
+text-align: left;
+margin-left: 3%;
+}
