@@ -27,7 +27,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     str="<br/> If you deposit <span style='background-color:khaki;'>"+principal+"</span>";
     str=str+"<br/> at an interset rate of <span style='background-color:khaki;'>"+rate+"%.</span>";
-    str=str+"<br/> you will receive amount of <span style='background-color:khaki;'>"+total+"</span>";
+    str=str+"<br/> you will receive amount of <span style='background-color:khaki;'>"+interest+"</span>";
     str=str+"<br/> in the year <span style='background-color:khaki;'>"+year+"</span>";
 
     document.getElementById("result").innerHTML=str; 
